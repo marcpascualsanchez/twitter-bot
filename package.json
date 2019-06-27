@@ -1,0 +1,22 @@
+{
+  "name": "twitter-bot",
+  "version": "1.0.0",
+  "description": "twitter bot made for fun",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcpascualsanchez/twitter-bot.git"
+  },
+  "keywords": [
+    "twitter"
+  ],
+  "author": "Marc Pascual Sánchez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcpascualsanchez/twitter-bot/issues"
+  },
+  "homepage": "https://github.com/marcpascualsanchez/twitter-bot#readme"
+}
