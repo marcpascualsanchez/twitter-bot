@@ -18,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/marcpascualsanchez/twitter-bot/issues"
   },
-  "homepage": "https://github.com/marcpascualsanchez/twitter-bot#readme"
+  "homepage": "https://github.com/marcpascualsanchez/twitter-bot#readme",
+  "dependencies": {
+    "phantom": "^6.2.0",
+    "request": "^2.88.0",
+    "spooky": "^0.2.5"
+  }
 }
