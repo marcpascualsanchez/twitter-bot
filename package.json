@@ -24,6 +24,7 @@
     "phantom": "^6.2.0",
     "puppeteer": "^1.18.1",
     "request": "^2.88.0",
-    "spooky": "^0.2.5"
+    "spooky": "^0.2.5",
+    "twitter": "^1.7.1"
   }
 }
