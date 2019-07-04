@@ -4,7 +4,6 @@ const fs = require('fs');
 const tweetFusion = require('../twitter/twitter');
 
 // using let for all since it is an infinite loop
-let time;
 let browser;
 let page;
 let fusionBtnElement;
