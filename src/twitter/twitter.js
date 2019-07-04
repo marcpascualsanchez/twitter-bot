@@ -8,7 +8,7 @@ module.exports = function tweetFusion(fusionData, imgData){
         
     if (!error) {
         var status = {
-        status: `${fusionData.dad} + ${fusionData.mom} = ${fusionData.name}`,
+        status: `${fusionData.mom} + ${fusionData.dad} = ${fusionData.name}`,
         media_ids: media.media_id_string, // Pass the media id string
         }
 
