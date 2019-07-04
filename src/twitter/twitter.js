@@ -1,5 +1,6 @@
 const Twitter = require('twitter');
 const secrets = require('../../../secrets');
+const config = require('../config');
 
 module.exports = function tweetFusion(fusionData, imgData){
     const client = new Twitter(secrets);
@@ -8,7 +9,7 @@ module.exports = function tweetFusion(fusionData, imgData){
         
     if (!error) {
         var status = {
-        status: `${fusionData.mom} + ${fusionData.dad} = ${fusionData.name}`,
+        status: fusionData.mom + " and " + fusionData.dad + " " + getMockSentence() + " " + fusionData.name,
         media_ids: media.media_id_string, // Pass the media id string
         }
 
@@ -20,4 +21,10 @@ module.exports = function tweetFusion(fusionData, imgData){
         console.log(error);
     }
     });
+}
+
+function getMockSentence(){
+    const min = 0;
+    const max = config.sentences.length - 1;
+    return config.sentences[ Math.floor(Math.random() * (max - min + 1)) + min ];
 }
